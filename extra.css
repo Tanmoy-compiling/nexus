@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url('./background.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formHeading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+#loginPage{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms{
+    background: linear-gradient(45deg,#121971,#121971,#121971,#1f2085,#181e71,#131971,#121971,#121971);
+    padding: 2rem 3rem;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.labels{
+    margin-top: 1rem;
+    margin-bottom: .2rem;
+}
+
+.loginBtn{
+    margin: 2rem 0;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+
+#Forgotten{
+    margin: 0 0 0 1rem;
+    text-align: center;
+}
+.credentials{
+    opacity: 20%;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.loginBtn{
+    margin-top: 3rem;
+    background: #714EF2;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+.text-divider{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.text-divider::before,.text-divider::after{
+    content: '';
+    height: 1px;
+    background-color: grey;
+    flex-grow: .6;
+}
+
+
+.ImgGoogle{
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem 1rem;
+}
+.labels{
+    margin-top: 2rem;
+}
+
+.option{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+.signUpBtn{
+    margin: 1rem 0 ;
+    background: linear-gradient(45deg,#121971,#121971,#121971,#1f2085,#181e71,#131971,#121971,#121971);
+    padding: 1.5rem ;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 104%;
+}
+#sign-up{
+    color: #FAFF00;
+}
+.logo{
+    position: absolute;  
+    margin: 2rem 1rem;
+}

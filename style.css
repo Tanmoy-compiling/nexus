@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.png);
+}
+#forms{
+    background-image: linear-gradient(45deg,#121971,#121971,#121971,#1f2085,#181e71,#131971,#121971,#121971);
+    margin: auto;
+    margin-top: 10vh ;
+    margin-left: 37vw;
+    margin-right: 37vw;
+    border-radius: 20px;
+}
+
+#no-account{
+    margin-top: 4vh;
+    background-image: linear-gradient(45deg,#121971,#121971,#121971,#1f2085,#181e71,#131971,#121971,#121971);
+    margin-left: 37vw;
+    margin-right: 37vw;
+    border-radius: 20px;
+    padding: .3rem;
+  text-align: center;
+  color: white;
+}
+#sign-up{
+    color: #FAFF00;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 12%;
+    margin-top: -1vh;
+    padding: 0;
+    min-width: 20rem;
+}
+
+form label,#logo,#or,.option,#Forgotten{
+    color: aliceblue;
+}
+
+#or{
+    text-align: center;
+}
+.sign-in{
+    margin-top: 7vh;
+}
+#google{
+    height: 2vh;
+}
+#signin-google{
+    margin-left: 1vw;
+    display: inline;
+}
+#option,#Forgotten{
+    text-align: center;
+}
+
+#Forgotten{
+   width: 100%;
+}
+
+.credentials{
+    opacity: 20%;
+}
+#Log-in{
+    background-color: #714EF2;
+}
+.credentials, #Log-in{
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#form-heading{
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+/* @media screen and (max-width: 250px) {
+    #forms{
+        display: none;
+    }
+} */
